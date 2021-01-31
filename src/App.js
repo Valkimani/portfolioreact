@@ -9,10 +9,10 @@ function App() {
     <div className="App">
      <Router>
        <Switch>
-         <Route path="/" component={About} />
-         <Route path="/" component={Contacts} />
-         <Route path="/" component={Links} />
-         <Route path="/" component={Portfolio} />         
+         <Route path="/about" component={About} />
+         <Route path="/contacts" component={Contacts} />
+         <Route path="/links" component={Links} />
+         <Route path="/portfolio" component={Portfolio} />         
        </Switch>
      </Router>
     </div>
